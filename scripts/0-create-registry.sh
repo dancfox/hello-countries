@@ -1,6 +1,6 @@
 #!/bin/bash
 
 aws ecr create-repository \
- --repository-name hello-countries \
+ --repository-name hello-python \
  --image-scanning-configuration scanOnPush=true \
- --region sa-east-1
+ --region us-east-1
